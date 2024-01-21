@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.scroll-up-button {
+  height: 50px;
+  width: 50px;
+  background-color: #140005;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Add a transition for smoother visibility changes */
+}
+
+.scroll-up-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.scroll-up-button i {
+  font-size: 24px;
+}
+.nav-bar {
+  width: 100vw;
+  height: 6rem;
+  background-color: #140005;
+  display: flex;
+  position: fixed;
+}
+.heading {
+  width: 25%;
+  padding: 5px;
+  margin: 1.25rem 1.875rem;
+  font-size: 1.875rem;
+}
+.heading a {
+  color: #e9ecef;
+  text-decoration: none;
+}
+.info {
+  width: 50%;
+  display: flex;
+  padding: 0.125rem;
+  margin: 1.875rem 18.75rem;
+}
+.info li {
+  display: inline;
+  font-size: 1.25rem;
+  padding: 0.3125rem;
+}
+.info li a {
+  color: #e9ecef;
+  text-decoration: none;
+}
+.info li a:hover {
+  color: rgb(204, 183, 183);
+  cursor: pointer;
+}
+.social-handles {
+  width: 25%;
+  display: flex;
+  padding: 0.625rem;
+  margin: auto;
+}
+.social-handles li {
+  display: inline;
+  margin: 0.625rem;
+}
+.social-handles li a {
+  color: #e9ecef;
+  text-decoration: none;
+}
+.social-handles li a :hover {
+  color: rgb(204, 183, 183);
+  cursor: pointer;
+}
+.home {
+  display: flex;
+  background-color: #f7fad7;
+  height: 46.875rem;
+}
+.first-line {
+  /* font-family: "Raleway", sans-serif;
+  font-family: "Rowdies", sans-serif; */
+  font-size: 2.5rem;
+  padding: 0.625rem;
+  margin-top: 15.625rem;
+  margin-left: 6.25rem;
+  font-weight: bold;
+}
+.second-line {
+  font-family: "Raleway", sans-serif;
+  font-family: "Rowdies", sans-serif;
+  font-size: 5rem;
+  padding: 0.625rem;
+  margin-left: 6.25rem;
+  font-weight: bold;
+  color: #140206;
+}
+.third-line {
+  font-family: "Raleway", sans-serif;
+  font-family: "Rowdies", sans-serif;
+  font-size: 2.5rem;
+  padding: 0.625rem;
+  margin-left: 6.25rem;
+}
+.intro-img {
+  margin-top: 12.5rem;
+  margin-left: 18.75rem;
+}
+.intro-img img {
+  height: 31.25rem;
+  width: 25rem;
+}
+.about {
+  background-color: antiquewhite;
+  height: 43.75rem;
+  width: 100%;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.875rem;
+  text-align: center;
+  padding-top: 3.125rem;
+}
+.content {
+  display: flex;
+  margin: 1.25rem;
+}
+.left img {
+  margin-left: 12.5rem;
+  height: 31.25rem;
+  width: 15.625rem;
+}
+.right {
+  height: 31.25rem;
+  width: 50rem;
+  margin-left: 12.5rem;
+}
+.this-is-me {
+  padding: 0.625rem;
+  margin-top: 3.125rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.information {
+  font-size: 1.25rem;
+  padding: 0.625rem;
+  margin-top: 0.625rem;
+}
+.right a {
+  text-decoration: none;
+}
+.button {
+  background-color: #fadad7;
+  font-size: 1.5625rem;
+  margin-top: 1.25rem;
+  font-weight: bold;
+  height: 3.125rem;
+  width: 25rem;
+  text-align: center;
+  border-radius: 0.3125rem;
+  padding: 0.9375rem;
+  color: black;
+  border: 2px solid black;
+}
+.button:hover {
+  background-color: #eec5c5;
+}
+.skills {
+  height: 39.25rem;
+  width: 100%;
+  background-color: #f7fad7;
+}
+.skills-information {
+  display: flex;
+  margin-left: 9.375rem;
+}
+.heading-title {
+  display: block-inline;
+  font-weight: bold;
+  padding: 0.625rem;
+  font-size: 1.5rem;
+  margin-left: 9.375rem;
+  margin-top: 5rem;
+  width: 44.75rem;
+  /* background-color: #eaebe0; */
+}
+.skills-information p {
+  height: 20.25rem;
+  width: 44.75rem;
+  padding: 0.625rem;
+  font-size: 1.25rem;
+  /* background-color: #eaebe0; */
+}
+.languages {
+  margin-top: 3.125rem;
+  margin-left: 9.375rem;
+  display: flex;
+}
+.logo {
+  font-size: 1.875rem;
+  padding: 1.25rem;
+  margin: 0.625rem;
+}
+.projects {
+  background-color: antiquewhite;
+  height: 43.75rem;
+  width: 100%;
+}
+.all-projects {
+  display: flex;
+  justify-content: space-around;
+}
+.project-1,
+.project-2 {
+  background-color: #fadad7;
+  height: 23.75rem;
+  width: 34.375rem;
+  font-size: 0.9375rem;
+  margin-top: 5rem;
+  font-size: 1.25rem;
+  border-radius: 5%;
+}
+.project-1:hover,
+.project-2:hover {
+  background-color: #dbb6b4;
+}
+.project-title {
+  padding: 0.625rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.project-info p {
+  padding: 0.625rem;
+  margin: 0.625rem;
+  height: 31.25rem;
+  width: 31.25rem;
+}
+.contacts {
+  height: 15.625rem;
+  background-color: #f7fad7;
+}
+.email {
+  margin-top: 1.875rem;
+  margin-left: 46.5625rem;
+  background-color: #fadad7;
+  height: 3.125rem;
+  width: 12.5rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.625rem;
+  border: 2px solid black;
+}
+.email:hover {
+  background-color: #eec5c5;
+  cursor: pointer;
+}
+.end {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #140005;
+}
+.email a {
+  text-decoration: none;
+  color: rgb(34, 23, 23);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f7fad7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #140005;
+  border-radius: 3.125rem;
+}
+
+/* Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: #0e0004;
+} */

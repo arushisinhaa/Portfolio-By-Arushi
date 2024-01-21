@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rowdies&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="scroll-up-button" id="scroll-up-button">
+      <a href="#home">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    <div class="nav-bar">
+      <div class="heading">
+        <a href="#">Portfolio</a>
+      </div>
+      <div class="info">
+        <ul>
+          <li>
+            <a href="javascript:void(0);" onclick="scrollToElement('home', 50)"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="javascript:void(0);" onclick="scrollToElement('about', 70)"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="javascript:void(0);"
+              onclick="scrollToElement('skills', 100)"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="javascript:void(0);"
+              onclick="scrollToElement('projects', 70)"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="javascript:void(0);"
+              onclick="scrollToElement('contacts', 50)"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="social-handles">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/arushi-sinha-76354258/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/arushisinhaa" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/_arushisinha_/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- First Page of my portfolio -->
+
+    <div class="home" id="home">
+      <div class="introduction">
+        <div class="first-line">Hello!</div>
+        <div class="second-line">I am Arushi Sinha</div>
+        <div class="third-line">B.Tech (ECE-AI) Student</div>
+      </div>
+      <div class="intro-img">
+        <img src="img 1.jpeg" />
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="about" id="about">
+      <div class="title">About Me</div>
+      <div class="content">
+        <div class="left">
+          <img src="img 2.jpeg" />
+        </div>
+        <div class="right">
+          <div class="this-is-me">
+            <span>This is Me!</span>
+          </div>
+          <div class="information">
+            <p>
+              I am a dedicated and passionate aspiring software engineer with a
+              strong interest in technology. I have a strong command over DSA
+              and C++. I have an interest in Web Development and am currently
+              exploring the domain. As a tech enthusiast, I am constantly
+              learning and exploring new ideas. I am a hardworking individual
+              who is committed to pursuing my goals and making a positive impact
+              in the tech industry. With my dedication and skills, I am
+              determined to excel in my field.
+            </p>
+          </div>
+          <a href="Arushi Resume.pdf" target="_blank">
+            <div class="button">Download My Resume</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills" id="skills">
+      <div class="title">My Skills</div>
+      <div class="knowledge">
+        <div class="heading-title">Skills Reflect Our Knowledge</div>
+        <div class="skills-information">
+          <p>
+            I have a strong command over data structures and algorithms in C++,
+            which enables me to solve problems efficiently. I possess
+            intermediate knowledge of programming languages such as Python,
+            MySQL which adds to my versatility. I have fair knowledge of HTML,
+            CSS concepts and is currently exploring the web development. With
+            these skills, I am well-equipped to take on challenging software
+            development projects and deliver high-quality solutions.
+          </p>
+          <div class="languages">
+            <div class="logo">C++</div>
+            <div class="logo">DSA</div>
+            <div class="logo">MySQL</div>
+            <div class="logo">Python</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="projects" id="projects">
+      <div class="title">My Projects</div>
+      <div class="all-projects">
+        <div class="project-1">
+          <div class="project-title">Today-I-Leared</div>
+          <div class="project-info">
+            <p>
+              Today-I-Learned serves as a practical application for learning and
+              gaining a better understanding of HTML, CSS, JavaScript, and
+              React. By working on this project, you can enhance your knowledge
+              and skills in these tech stacks while simultaneously providing a
+              valuable resource for users to expand their knowledge and engage
+              in intellectual discussions.
+            </p>
+          </div>
+        </div>
+        <div class="project-2">
+          <div class="project-title">Learn-Aid</div>
+          <div class="project-info">
+            <p>
+              Learn Aid is an innovative solution that addresses the issue of
+              the lack of educational support for children in orphanages and
+              NGOs using flutter. By connecting mentors with these
+              organizations, it provides children with access to quality
+              education, which is essential for their growth and development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact-Me -->
+    <div class="contacts" id="contacts">
+      <div class="title">Contact-Me</div>
+      <div class="email">
+        <a href="mailto:arushi2303@gmail.com" target="_blank">Email Me!</a>
+      </div>
+    </div>
+
+    <!-- End Section -->
+    <div class="end"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
